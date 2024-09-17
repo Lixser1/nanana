@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color: #515151;
+}
+.message {
+    margin: 20px;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: #ffff00;
+}
+
+#red {
+    background-color: red;
+}
+
+.light {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.clicks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
